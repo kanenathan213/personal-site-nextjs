@@ -139,10 +139,10 @@ https://app.cosmicjs.com/personal-site-production/dashboard?message=app-installe
 
 
 #### Task list
-[ ] Make git repo
-[ ] After initial commit, remove blog stuff for now
-[ ] Make simple homepage
-[ ] Push up to Github
-[ ] Deploy to Vercel
-[ ] Update domain hosting to point to Vercel
-[ ] Archive old site/repo
+- [x] Make git repo
+- [x] After initial commit, remove blog stuff for now
+- [ ] Make simple homepage
+- [x] Push up to Github
+- [ ] Deploy to Vercel
+- [ ] Update domain hosting to point to Vercel
+- [ ] Archive old site/repo
