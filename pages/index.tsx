@@ -24,6 +24,6 @@ export default function Index() {
 
 export async function getStaticProps({ preview }) {
   return {
-    props: { },
+    props: {},
   }
 }

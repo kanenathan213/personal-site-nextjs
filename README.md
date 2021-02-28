@@ -131,18 +131,17 @@ Alternatively, you can deploy using our template by clicking on the Deploy butto
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/cms-cosmic&project-name=cms-cosmic&repository-name=cms-cosmic&env=COSMIC_BUCKET_SLUG,COSMIC_READ_KEY,COSMIC_PREVIEW_SECRET&envDescription=Required%20to%20connect%20the%20app%20with%20Cosmic&envLink=https://vercel.link/cms-cosmic-env)
 
-
 #### Notes to future self
 
 Content lives here
 https://app.cosmicjs.com/personal-site-production/dashboard?message=app-installed
 
-
 #### Task list
+
 - [x] Make git repo
 - [x] After initial commit, remove blog stuff for now
-- [ ] Make simple homepage
+- [x] Make simple homepage
 - [x] Push up to Github
-- [ ] Deploy to Vercel
+- [x] Deploy to Vercel
 - [ ] Update domain hosting to point to Vercel
 - [ ] Archive old site/repo
