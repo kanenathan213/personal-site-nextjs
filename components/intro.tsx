@@ -1,13 +1,12 @@
-import { CMS_NAME, CMS_URL } from 'lib/constants'
-
 export default function Intro() {
   return (
-    <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
-      <h1 className="text-6xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
+    <section className="min-h-screen flex-col flex items-center justify-center">
+      <h1 className="text-4xl md:text-5xl tracking-tighter font-thin uppercase font-body leading-tight md:pr-8">
         Nathan Kane
       </h1>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        Is a software engineer obsessed with world-positive products.
+        I'm a software engineer who is passionate about creating world-positive
+        products.
       </h4>
     </section>
   )
