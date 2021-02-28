@@ -3,7 +3,12 @@ import Meta from './meta'
 import 'lazysizes'
 import 'lazysizes/plugins/parent-fit/ls.parent-fit'
 
-export default function Layout({ preview, children }) {
+type Props = {
+  preview?: string
+  children: React.ReactNode
+}
+
+export default function Layout({ preview, children }: Props) {
   return (
     <>
       <Meta />
