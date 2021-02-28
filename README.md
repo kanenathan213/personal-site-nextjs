@@ -143,7 +143,8 @@ https://app.cosmicjs.com/personal-site-production/dashboard?message=app-installe
 - [x] Make simple homepage
 - [x] Push up to Github
 - [x] Deploy to Vercel
-- [ ] Update domain hosting to point to Vercel
+- [x] Update domain hosting to point to Vercel
+- [ ] Validate new site is working as expected
 - [ ] Archive old site/repo
 - [ ] Add 'Things I'm proud of' section
 - [ ] Add animated circle the simulates scrolling down
