@@ -1,55 +1,6 @@
-# A statically generated blog example using Next.js and Cosmic
+# Nathan's site
 
-This example showcases Next.js's [Static Generation](https://nextjs.org/docs/basic-features/pages) feature using [Cosmic](https://cosmicjs.com/) as the data source.
-
-## Demo
-
-[https://cosmic-next-blog.vercel.app/](https://cosmic-next-blog.vercel.app/)
-
-## Deploy your own
-
-Once you have access to [the environment variables you'll need](#step-3-set-up-environment-variables), deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/cms-cosmic&project-name=cms-cosmic&repository-name=cms-cosmic&env=COSMIC_BUCKET_SLUG,COSMIC_READ_KEY,COSMIC_PREVIEW_SECRET&envDescription=Required%20to%20connect%20the%20app%20with%20Cosmic&envLink=https://vercel.link/cms-cosmic-env)
-
-### Related examples
-
-- [WordPress](/examples/cms-wordpress)
-- [DatoCMS](/examples/cms-datocms)
-- [Sanity](/examples/cms-sanity)
-- [TakeShape](/examples/cms-takeshape)
-- [Prismic](/examples/cms-prismic)
-- [Contentful](/examples/cms-contentful)
-- [Strapi](/examples/cms-strapi)
-- [Agility CMS](/examples/cms-agilitycms)
-- [ButterCMS](/examples/cms-buttercms)
-- [Storyblok](/examples/cms-storyblok)
-- [GraphCMS](/examples/cms-graphcms)
-- [Kontent](/examples/cms-kontent)
-- [Ghost](/examples/cms-ghost)
-- [Blog Starter](/examples/blog-starter)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example cms-cosmic cms-cosmic-app
-# or
-yarn create next-app --example cms-cosmic cms-cosmic-app
-```
-
-## Configuration
-
-### Step 1. Create an account and a project on Cosmic
-
-First, [create an account on Cosmic](https://cosmicjs.com).
-
-### Step 2. Install the Next.js Static Blog app
-
-After creating an account, install the [Next.js Static Blog](https://www.cosmicjs.com/apps/nextjs-static-blog) app from the Cosmic App Marketplace.
-
-### Step 3. Set up environment variables
+### Set up environment variables
 
 Go to the **Settings** menu at the sidebar and click **Basic Settings**.
 
@@ -73,13 +24,9 @@ COSMIC_READ_KEY=...
 COSMIC_PREVIEW_SECRET=...
 ```
 
-### Step 4. Run Next.js in development mode
+### Step 4. in development mode
 
 ```bash
-npm install
-npm run dev
-
-# or
 
 yarn install
 yarn dev
@@ -144,7 +91,8 @@ https://app.cosmicjs.com/personal-site-production/dashboard?message=app-installe
 - [x] Push up to Github
 - [x] Deploy to Vercel
 - [x] Update domain hosting to point to Vercel
-- [ ] Validate new site is working as expected
-- [ ] Archive old site/repo
+- [x] Validate new site is working as expected
+- [x] Ensure it looks good on mobile
+- [x] Archive old site/repo
 - [ ] Add 'Things I'm proud of' section
-- [ ] Add animated circle the simulates scrolling down
+- [x] Add animated circle the simulates scrolling down

@@ -7,8 +7,10 @@ import Layout from 'components/layout'
 import { getAllPostsForHome } from 'lib/api'
 import Head from 'next/head'
 import { CMS_NAME } from 'lib/constants'
+import { useState } from 'react'
 
 export default function Index() {
+  const [hasBeenScrolled, setHasBeenScrolled] = useState(false)
   return (
     <>
       <Layout>
@@ -16,8 +18,8 @@ export default function Index() {
           <title>Nathan Kane</title>
         </Head>
         <Container>
-          <Intro />
-          <Detail />
+          <Intro hasBeenScrolled={hasBeenScrolled} />
+          <Detail handleBottomScolledTo={() => setHasBeenScrolled(true)} />
         </Container>
       </Layout>
     </>
