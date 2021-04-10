@@ -1,5 +1,7 @@
 # Nathan's site
 
+Hosted on [Vercel](https://vercel.com/dashboard)
+
 ### Set up environment variables
 
 Go to the **Settings** menu at the sidebar and click **Basic Settings**.
