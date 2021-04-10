@@ -1,6 +1,6 @@
 # Nathan's site
 
-Hosted on [Vercel](https://vercel.com/dashboard)
+Hosted on [Vercel](https://vercel.com/dashboard) using Cosmic as a headless CMS
 
 ### Set up environment variables
 
