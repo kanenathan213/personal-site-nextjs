@@ -22,7 +22,7 @@ export default function Detail({ handleBottomScolledTo }: Props) {
         <a className="underline" href="https://github.com/kanenathan213">
           Github
         </a>
-        <p>hi@nathanrkane.com</p>
+        <p data-test-id="email_address">hi@nathanrkane.com</p>
         <Waypoint onEnter={handleBottomScolledTo} />
       </div>
     </section>
