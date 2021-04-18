@@ -11,8 +11,7 @@ export default function Intro({ hasBeenScrolled }: Props) {
         Nathan Kane
       </h1>
       <h4 className="text-center md:text-center text-lg mt-5 md:pl-8">
-        I'm a software engineer who believes in building world-positive
-        products.
+        I'm a software engineer who believes in building impactful products.
       </h4>
       {hasBeenScrolled === false && <ScrollIndicator />}
     </section>
