@@ -89,7 +89,7 @@ Run e2e tests:
 
 ```bash
 yarn dev
-yarn 
+yarn cy:run
 ```
 
 #### Task list
