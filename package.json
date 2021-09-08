@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "cy:open": "yarn run cypress open",
-    "test": "node tests/main_test.js"
+    "cy:run": "cypress run"
   },
   "dependencies": {
     "classnames": "2.2.6",
