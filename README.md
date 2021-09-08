@@ -85,6 +85,13 @@ Alternatively, you can deploy using our template by clicking on the Deploy butto
 Content lives here
 https://app.cosmicjs.com/personal-site-production/dashboard?message=app-installed
 
+Run e2e tests:
+
+```bash
+yarn dev
+yarn cy:run
+```
+
 #### Task list
 
 - [x] Make git repo
