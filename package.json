@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "classnames": "2.2.6",
-    "cosmicjs": "^4.0.9",
+    "cosmicjs": "^4.1.2",
     "date-fns": "2.14.0",
     "lazysizes": "^5.2.1-rc2",
     "next": "^11.1.2",
