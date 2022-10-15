@@ -19,7 +19,7 @@ export default function Detail({ handleBottomScolledTo }: Props) {
           Petal
         </a>asdf
         . When my laptop is shut, I like going hiking, scuba diving, and
-        devouring sushi (not at the same time).
+        devouring sushi (not at the same time).asdf
       </p>
       <div className="flex-col flex items-center mt-8">
         <h4 className="font-bold text-xl mb-4">Let's chat</h4>
