@@ -17,7 +17,7 @@ export default function Detail({ handleBottomScolledTo }: Props) {
         . Previous, I led the product engineering organization at{' '}
         <a className="underline" href="https://www.petalcard.com">
           Petal
-        </a>
+        </a>asdf
         . When my laptop is shut, I like going hiking, scuba diving, and
         devouring sushi (not at the same time).
       </p>
