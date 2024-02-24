@@ -18,13 +18,8 @@ export default function Detail({ handleBottomScolledTo }: Props) {
         <a className="underline" href="https://www.petalcard.com">
           Petal
         </a>
-<<<<<<< Updated upstream
         . When my laptop is shut, I like going hiking, scuba diving, and
         devouring sushi (not at the same time).
-=======
-        asdf . When my laptop is shut, I like going hiking, scuba diving, and
-        devouring sushi (not at the same time).asdf
->>>>>>> Stashed changes
       </p>
       <div className="flex-col flex items-center mt-8">
         <h4 className="font-bold text-xl mb-4">Let's chat</h4>
