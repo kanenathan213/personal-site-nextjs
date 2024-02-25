@@ -1,7 +1,7 @@
-import Container from 'components/container'
-import Intro from 'components/intro'
-import Detail from 'components/detail'
-import Layout from 'components/layout'
+import Container from '@/components/container'
+import Intro from '@/components/intro'
+import Detail from '@/components/detail'
+import Layout from '@/components/layout'
 import Head from 'next/head'
 import { useState } from 'react'
 
@@ -22,7 +22,7 @@ export default function Index() {
   )
 }
 
-export async function getStaticProps({ preview }) {
+export async function getStaticProps({ preview }: { preview: any }) {
   return {
     props: {},
   }
